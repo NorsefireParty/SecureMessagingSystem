@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 
 '''
-  NorseFire vSecurity Messaging System
+  NorseFire Secure Messaging System
 '''
 
-# Import the necessary:
 import socket
 import sys
 import subprocess
@@ -58,9 +57,9 @@ def clientthread(conn):									# Function that executes the vSecurity Messaging
                                                   \n\
    ####  ####  ##########                         \n\
    ####  ####  ##########      Welcome to the     \n\
-   ####  ####  ##########        NorseFire^       \n\
+   ####  ####  ##########        NorseFire*       \n\
                                                   \n\
-   ####  ####  ##########    Security Messaging   \n\
+   ####  ####  ##########     Secure Messaging    \n\
    ####  ####  ##########          System         \n\
    ####  ####  ##########                         \n\
                                                   \n\
