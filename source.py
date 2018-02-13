@@ -30,12 +30,10 @@ except socket.error as msg:
     sys.exit()
 
 s.listen(10)										# Maintain socket in listen state
-
 											
 def TOTP(K, digits=6, window=30, clock=None, digestmod=hashlib.sha1):			# Time Based One-Time-Password function
     C = int(clock / window)                                                                                                                                                    
     return HOTP(K, C, digits=digits, digestmod=digestmod) 
-
 											
 def HOTP(K, C, digits=6, digestmod=hashlib.sha1):					# HMAC One-Time Password function
     C_bytes = struct.pack(b"!Q", C)
