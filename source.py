@@ -17,7 +17,7 @@ from time import sleep
 secretKey = "[REDACTED]"								# TODO: Set really long string
 flag = "\r\n\r\nnotaflag={totally_not_a_flag}"						# For unknown reasons
 message = "[REDACTED]"									# Message string
-HOST = ''   										# Symbolic name meaning all available interfaces
+HOST = ''   										# sms.badge.crikey.ctf
 PORT = 8888 										# Arbitrary non-privileged port
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)				# Define a Socket in Python
